@@ -19,9 +19,9 @@ void main()
   for(int i=0;i<T;i++)
   {
   	for(int a=0;a<N[i];a++)
-  	{  if(S[a]>=(P/2))
+  	{  if((S[a]) >= (P/2))
   	     e++;
-  	   else if(s[a]<=(P/10))
+  	   else if((S[a]) <= (P/10))
   	     d++;    
         }
         if(e==1 && d==2)
